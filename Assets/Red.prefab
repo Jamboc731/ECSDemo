@@ -1440,8 +1440,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4714094339444358}
-  - component: {fileID: 114692960218226408}
   - component: {fileID: 114907559794292648}
+  - component: {fileID: 114411457447352146}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -3591,7 +3591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114692960218226408
+--- !u!114 &114411457447352146
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3599,10 +3599,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1763761799932068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be4a643d5b6adae48a23508a1f50a29a, type: 3}
+  m_Script: {fileID: 11500000, guid: 193d792a978bf15438e6a6df58e1e019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDirection: {x: 0, y: 0, z: 0}
 --- !u!114 &114819688001159850
 MonoBehaviour:
   m_ObjectHideFlags: 1

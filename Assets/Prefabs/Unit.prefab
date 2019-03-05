@@ -1469,8 +1469,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4849276968526192}
-  - component: {fileID: 114922072236177638}
   - component: {fileID: 114917364215163938}
+  - component: {fileID: 114738287420453470}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -3602,6 +3602,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114738287420453470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712562845035606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193d792a978bf15438e6a6df58e1e019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114917364215163938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3613,18 +3624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114922072236177638
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1712562845035606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be4a643d5b6adae48a23508a1f50a29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDirection: {x: 0, y: 0, z: 0}
 --- !u!137 &137248142412673416
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

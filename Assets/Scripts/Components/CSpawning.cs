@@ -9,7 +9,7 @@ public class CSpawning : MonoBehaviour
 {
 
     [SerializeField] GameObject[] unitPrefabs;
-    Vector3 [] spawns = new Vector3 [] { new Vector3 (0, 0, -3), new Vector3 (0, 0, -1.5f), new Vector3 (0, 0, 0), new Vector3 (0, 0, 1.5f), new Vector3 (0, 0, 3), new Vector3 (-3, 0, -3), new Vector3 (-3, 0, -1.5f), new Vector3 (-3, 0, 0), new Vector3 (-3, 0, 1.5f), new Vector3 (-3, 0, 3), new Vector3 (-1.5f, 0, -3), new Vector3 (-1.5f, 0, -1.5f), new Vector3 (-1.5f, 0, 0), new Vector3 (-1.5f, 0, 1.5f), new Vector3 (-1.5f, 0, 3), new Vector3 (1.5f, 0, -3), new Vector3 (1.5f, 0, -1.5f), new Vector3 (1.5f, 0, 0), new Vector3 (1.5f, 0, 1.5f), new Vector3 (1.5f, 0, 3), new Vector3 (3, 0, -3), new Vector3 (3, 0, -1.5f), new Vector3 (3, 0, 0), new Vector3 (3, 0, 1.5f), new Vector3 (3, 0, 3) };
+    Vector3 [] spawns = new Vector3 [] { Vector3.zero };// { new Vector3 (0, 0, -3), new Vector3 (0, 0, -1.5f), new Vector3 (0, 0, 0), new Vector3 (0, 0, 1.5f), new Vector3 (0, 0, 3), new Vector3 (-3, 0, -3), new Vector3 (-3, 0, -1.5f), new Vector3 (-3, 0, 0), new Vector3 (-3, 0, 1.5f), new Vector3 (-3, 0, 3), new Vector3 (-1.5f, 0, -3), new Vector3 (-1.5f, 0, -1.5f), new Vector3 (-1.5f, 0, 0), new Vector3 (-1.5f, 0, 1.5f), new Vector3 (-1.5f, 0, 3), new Vector3 (1.5f, 0, -3), new Vector3 (1.5f, 0, -1.5f), new Vector3 (1.5f, 0, 0), new Vector3 (1.5f, 0, 1.5f), new Vector3 (1.5f, 0, 3), new Vector3 (3, 0, -3), new Vector3 (3, 0, -1.5f), new Vector3 (3, 0, 0), new Vector3 (3, 0, 1.5f), new Vector3 (3, 0, 3) };
 
     public void SpawnCube (Vector3 position)
     {

@@ -20,7 +20,7 @@ public class SSpawning : ComponentSystem
     protected override void OnStartRunning ()
     {
         base.OnStartRunning ();
-        countText = GameObject.Find ("CountText").GetComponent<Text>();
+        //countText = GameObject.Find ("CountText").GetComponent<Text>();
     }
 
     protected override void OnUpdate ()
@@ -40,7 +40,7 @@ public class SSpawning : ComponentSystem
                 }
 
             }
-            countText.text = (int.Parse(countText.text) + count).ToString();
+            //countText.text = (int.Parse(countText.text) + count).ToString();
         }
         currentPoint += Time.deltaTime;
 

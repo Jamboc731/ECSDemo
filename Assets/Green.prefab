@@ -337,8 +337,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4277099500861356}
-  - component: {fileID: 114635988719281192}
   - component: {fileID: 114226278854342510}
+  - component: {fileID: 114069988323838304}
   m_Layer: 0
   m_Name: Green
   m_TagString: Untagged
@@ -3580,6 +3580,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114069988323838304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284977495415448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193d792a978bf15438e6a6df58e1e019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114226278854342510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3613,18 +3624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114635988719281192
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1284977495415448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be4a643d5b6adae48a23508a1f50a29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveDirection: {x: 0, y: 0, z: 0}
 --- !u!137 &137011941004704714
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
